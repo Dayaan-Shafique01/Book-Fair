@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: "Ubuntu" , sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 15px;
+    color: rgb(11, 11, 82);
+    font-weight: bold;
+}
+.navbar li a:hover{
+    color: orangered;
+    text-decoration: underline 2px solid orangered;
+}
+.logo{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.topleft{
+    width: 50%;
+}
+.book-pen{
+    width: 170px;
+}
+.topright .bookfair{
+    /* width: 518px; */
+    border-radius: 15px;
+}
+.section1{
+    min-height: 100vh;
+    padding: 12px 0;
+}
+.section2 {
+    /* min-height: 100vh; */
+    padding: 76px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(11, 11, 82);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box ul{
+    list-style: none;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+    color: rgb(11, 11, 82);
+}
+.box li{
+    padding: 8px 0;
+}
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    color: rgba(5, 5, 69, 0.8);
+    font-weight: bold;
+    cursor: pointer;
+}
